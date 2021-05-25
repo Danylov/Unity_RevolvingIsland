@@ -292,9 +292,13 @@ MonoBehaviour:
   speed: 5
   hasPowerup: 0
   powerupIndicator: {fileID: 1556462188}
-  currentPowerUp: 2
+  currentPowerUp: 3
   rocketPrefab: {fileID: 3907606657661784007, guid: ed50c4c912de14f4b9fd9f0df2384b80,
     type: 3}
+  hangTime: 1
+  smashSpeed: 5
+  explosionForce: 10
+  explosionRadius: 10
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -418,6 +422,7 @@ MonoBehaviour:
   powerupPrefabs:
   - {fileID: 523809438785506615, guid: 5d1a93dd9a0689844ab3e0e36417b176, type: 3}
   - {fileID: 523809438785506615, guid: 4746d6a432d6e7e4b8d0eab5c709eeed, type: 3}
+  - {fileID: 1170923633638963990, guid: 608f8fe0146aa604aa1a885b51a0ccd8, type: 3}
   enemyCount: 0
   waveNumber: 0
 --- !u!1 &1211016355
@@ -759,6 +764,75 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1556462187}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1691951855419838585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165075737019186424, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170923633638963990, guid: 608f8fe0146aa604aa1a885b51a0ccd8,
+        type: 3}
+      propertyPath: m_Name
+      value: PowerupSmash
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 608f8fe0146aa604aa1a885b51a0ccd8, type: 3}
 --- !u!1001 &7305732181041295649
 PrefabInstance:
   m_ObjectHideFlags: 0
