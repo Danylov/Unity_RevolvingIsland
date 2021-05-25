@@ -409,8 +409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25ad7bdb7f73835468d8f022f60ac1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1074152140995996891, guid: d7172f1027e2d434087447d3c5d57d07,
-    type: 3}
+  enemyPrefabs:
+  - {fileID: 1074152140995996891, guid: d7172f1027e2d434087447d3c5d57d07, type: 3}
+  - {fileID: 1074152140995996891, guid: a535dc82e11ab24459f58f84468e79d8, type: 3}
   powerupPrefab: {fileID: 523809438785506615, guid: 5d1a93dd9a0689844ab3e0e36417b176,
     type: 3}
   enemyCount: 0
